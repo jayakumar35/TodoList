@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+
+}
+body{
+  background-image:url(images/flat-lay-clean-office-desk.jpg) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.todo-container{
+  margin-top: 50px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+ 
+
+}
+.todo-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.todo-col{
+  margin-left: 15px;
+  gap: 10px;
+}
+.inputbox{
+  padding: 10px 15px ; 
+  border: 1px solid #999;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+
+
+}
+.inputbox1{
+padding: 10px 67px;
+border: 1px solid #999;margin: 8px;
+border-radius: 8px;
+font-size: 15px;
+font-weight: 500;
+
+
+}
+.inputbox2{
+  padding: 10px 67px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgba(14, 75, 229, 0.886);
+
+}
+.inputbox3{
+  padding: 8px 54px;
+  border: 1px solid #999;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+
+
+}
+.tasktable{
+ 
+
+  
+  }
+  .task-item-col {
+    padding: 7px;
+    box-shadow: 3px 3px 5px #999;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    font-size: 15px;
+    font-weight: 500;
+    
+  }
+  .tasktable button{
+    padding: 5px 20px;
+    border-radius: 8px;
+    color:white;
+    background:red;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+
+  }
